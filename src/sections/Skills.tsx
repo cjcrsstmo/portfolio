@@ -15,13 +15,13 @@ const Skills = () => {
                   <div className='' data-aos="fade-up">
                       {/* <h1 className='text-2xl'>Front-End</h1> */}
                           <ul className='flex gap-10 mt-4 justify-evenly w-4/5 mx-auto text-center flex-wrap'>
-                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-html5 text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-css3 text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-javascript text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-bootstrap text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-tailwind-css text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-angular text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-react text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-css3 text-7xl text-blue-500 mb-2 opacity-80'/>CSS</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-javascript text-7xl text-blue-500 mb-2 opacity-80'/>JAVASCRIPT</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-typescript text-7xl text-blue-500 mb-2 opacity-80'/>TYPESCRIPT</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-bootstrap text-7xl text-blue-500 mb-2 opacity-80'/>BOOTSTRAP</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-tailwind-css text-7xl text-blue-500 mb-2 opacity-80'/>TAILWIND</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-angular text-7xl text-blue-500 mb-2 opacity-80'/>ANGULAR</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-react text-7xl text-blue-500 mb-2 opacity-80'/>REACT</li>
                           </ul>
                   </div>
   <hr className='w-1/2 mx-auto mt-10 opacity-30' data-aos="fade-up"/>
@@ -31,10 +31,9 @@ const Skills = () => {
                   {/* <h1 className='text-2xl'>Back-End</h1> */}
                       <ul className='flex gap-10 mt-4 justify-evenly w-4/5 mx-auto text-center flex-wrap'>
                           <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-php text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-php text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-postgresql text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-firebase text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-mongodb text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-phpP text-7xl text-blue-500 mb-2 opacity-80'/>LARAVEL</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-postgresqPl text-7xl text-blue-500 mb-2 opacity-80'/>MYSQL</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-firebase text-7xl text-blue-500 mb-2 opacity-80'/>FIREBASE</li>
                       </ul>
                   </div>
   <hr className='w-1/2 mx-auto mt-10 opacity-30' data-aos="fade-up"/>
@@ -42,12 +41,10 @@ const Skills = () => {
                   <div className='mt-10' data-aos="fade-up">
                   {/* <h1 className='text-2xl'>Others</h1> */}
                       <ul className='flex gap-10 mt-4 justify-evenly w-4/5 mx-auto text-center flex-wrap'>
-                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-git text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-vs-code text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-php text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-aws text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-php text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
-                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-php text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-git text-7xl text-blue-500 mb-2 opacity-80'/>GIT</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-vs-code text-7xl text-blue-500 mb-2 opacity-80'/>VS CODE</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-POSTMAN text-7xl text-blue-500 mb-2 opacity-80'/>POSTMAN</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-figma text-7xl text-blue-500 mb-2 opacity-80'/>FIGMA</li>
                       </ul>
                   </div>
               </div>
