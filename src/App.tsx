@@ -11,7 +11,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';  
 import { useEffect } from 'react';
 import 'boxicons/css/boxicons.min.css';
-
+import Background from './assets/bg-portfolio.jpg'
 
 function App() {
   
@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-cover bg-center bg-fixed	min-h-screen bg-no-repeat' style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/bg-portfolio.jpg')" }}>
+      <div className='bg-cover bg-center bg-fixed	min-h-screen bg-no-repeat' style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${Background})` }}>
           <Navbar/>
           <Landing/>
           <AboutMe/>
