@@ -1,0 +1,59 @@
+
+
+const Skills = () => {
+    return (
+      <section className='min-h-screen' id='skills'>
+          <div>
+              <div className='text-center pt-10 xl:pt-20'>
+                  <h1 className='text-3xl sm:text-4xl md:text-5xl text-center mb-4' data-aos="zoom-in-up">SKILLS</h1>
+                  <p data-aos="fade-up">I've learned about different tech tools in my studies, and right now, I'm still improving myself, especially Back-end Development.</p>
+              </div>
+  
+  
+              <div className='w-4/5 mt-20 mx-auto'>
+                  {/* front-end */}
+                  <div className='' data-aos="fade-up">
+                      {/* <h1 className='text-2xl'>Front-End</h1> */}
+                          <ul className='flex gap-10 mt-4 justify-evenly w-4/5 mx-auto text-center flex-wrap'>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-html5 text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-css3 text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-javascript text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-bootstrap text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-tailwind-css text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-angular text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                              <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-react text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          </ul>
+                  </div>
+  <hr className='w-1/2 mx-auto mt-10 opacity-30' data-aos="fade-up"/>
+  
+                  {/* back-end */}
+                  <div className='mt-10' data-aos="fade-up">
+                  {/* <h1 className='text-2xl'>Back-End</h1> */}
+                      <ul className='flex gap-10 mt-4 justify-evenly w-4/5 mx-auto text-center flex-wrap'>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-php text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-php text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-postgresql text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-firebase text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-mongodb text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                      </ul>
+                  </div>
+  <hr className='w-1/2 mx-auto mt-10 opacity-30' data-aos="fade-up"/>
+                  {/* others */}
+                  <div className='mt-10' data-aos="fade-up">
+                  {/* <h1 className='text-2xl'>Others</h1> */}
+                      <ul className='flex gap-10 mt-4 justify-evenly w-4/5 mx-auto text-center flex-wrap'>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-git text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-vs-code text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-php text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-aws text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-php text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                          <li className='flex flex-col text-blue-500 opacity-80'><i className='bx bxl-php text-7xl text-blue-500 mb-2 opacity-80'/>PHP</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </section>
+    )
+  }
+  
+  export default Skills
