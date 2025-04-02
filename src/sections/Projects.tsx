@@ -1,4 +1,4 @@
-import CJ from '../assets/cj.png'
+import CJ from '../assets/cj.jpg'
 const Projects = () => {
   return (
     <section className='min-h-screen pt-10 xl:pt-20' id='projects'>

@@ -1,4 +1,4 @@
-import ProfilePic from '../assets/cj.png'
+import ProfilePic from '../assets/cj.jpg'
 
 const AboutMe = () => {
   return (
