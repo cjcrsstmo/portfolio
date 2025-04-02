@@ -24,7 +24,7 @@ const Contact = () => {
     }
 
     try {
-      const response = await fetch('https://script.google.com/macros/s/AKfycbyduY-P2uv-b4kX_sWWkyMjB7qENQkBM3VTzi9hVWJSb3zjxCCKcKh9oomE6W1G-hnFnQ/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbyduY-P2uv-b4kX_sWWkyMjB7qENQkBM3VTzi9hVWJSb3zjxCCKcKh9oomE6W1G-hnFnQ/exec', {
         method: 'POST',
         mode: 'no-cors', // For development
         headers: {
