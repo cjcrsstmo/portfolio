@@ -1,17 +1,17 @@
-import CJ from '../assets/cj.jpg'
+// import CJ from '../assets/cj.jpg'
 import objectiva from '../assets/objectiva.jpg'
 import dentalcare from '../assets/dentalcare.jpg'
 import bookstore from '../assets/bookstore.jpg'
-import {useState} from 'react'
+// import {useState} from 'react'
 
 
 const Projects = () => {
 
-    const [isOpen, setIsOpen] = useState<boolean>(false)
+    // const [isOpen, setIsOpen] = useState<boolean>(false)
 
-    const toggleProject = () => {
-        setIsOpen(!isOpen)
-    }
+    // const toggleProject = () => {
+    //     setIsOpen(!isOpen)
+    // }
 
   return (
     <section className='min-h-screen pt-10 xl:pt-20' id='projects'>
