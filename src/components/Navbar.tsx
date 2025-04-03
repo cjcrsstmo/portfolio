@@ -20,7 +20,7 @@ const Navbar = () => {
                 <li><a href="#projects" className='hover:underline hover:underline-offset-6'>PROJECTS</a></li>
                 <li><a href="#contact" className='hover:underline hover:underline-offset-6'>CONTACT</a></li>
             </ul>
-            <p className='block 2xl:hidden'><i className='bx bx-menu text-4xl cursor-pointer' onClick={() => setMenuOpen(!isMenuOpen)}></i></p>
+            <p className='block '><i className='bx bx-menu text-4xl cursor-pointer' onClick={() => setMenuOpen(!isMenuOpen)}></i></p>
 
             <div className='relative w-screen '>
 
