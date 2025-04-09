@@ -46,16 +46,16 @@ const Contact = () => {
 
   return (
     <section className='min-h-screen' id="contact">
-      <h1 className='text-3xl sm:text-4xl md:text-5xl text-center pt-30 mb-10 sm:mb-10 lg:mb-20 xl:mb-30' data-aos="zoom-in-up">CONTACT ME</h1>
+      <h1 className='font-bold text-3xl sm:text-4xl md:text-5xl text-center pt-30 mb-10 sm:mb-10 lg:mb-20 xl:mb-30' data-aos="zoom-in-up">CONTACT ME</h1>
       
       <div className='flex flex-col lg:flex-row text-center xl:text-left justify-center items-center gap-8 sm:gap-20 '>
         <div className='flex flex-col justify-around h-60' data-aos="fade-right">
           <p>Let's talk about everything!</p>
           <p>I am here to engage with you and offer my assistance. <br /><br /> Addressing any queries or concerns you may have.</p>
           <ul className='flex gap-5 mx-auto'>
-            <li><i className='bx bxl-github text-2xl'></i></li>
-            <li><i className='bx bxl-linkedin-square text-2xl'></i></li>
-            <li><i className='bx bxl-facebook-square text-2xl'></i></li>
+            <li><a href="https://github.com/cjcrsstmo" target='_blank' /><i className='bx bxl-github text-2xl'></i></li>
+            <li><a href="https://www.linkedin.com/in/chrisjohn-crisostomo-8148162b7/" target='_blank' /><i className='bx bxl-linkedin-square text-2xl'></i></li>
+            <li><a href="https://www.facebook.com/cjcrsstmo" target='_blank' /><i className='bx bxl-facebook-square text-2xl'></i></li>
           </ul>
         </div>  
         <div className='text-black flex flex-col items-center gap-3 w-full max-w-md' data-aos="fade-left">
