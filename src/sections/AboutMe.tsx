@@ -12,16 +12,16 @@ const AboutMe = () => {
       </div>
 
       <div className='flex justify-center items-center w-3/5 px-auto mx-auto h-auto'>
-        <div className='flex gap-20 sm:gap-30 justify-evenly items-center w-full flex-col xl:flex-row my-auto'>
+        <div className='flex gap-20 justify-evenly items-center w-full flex-col xl:flex-row my-auto'>
 
           {/* Profile Picture */}
-          <div className='w-40 sm:w-screen border-2 rounded-xl border-accent'data-aos="fade-right">
+          <div className='w-40 xl:w-max  border-2 rounded-xl border-accent'data-aos="fade-right">
             <img  src={ProfilePic}  alt="profile" className='rounded-xl w-40 sm:w-82 translate-5' data-aos="fade-right"/>
           </div>
         
 
           {/* About Me Text */}
-          <div className='flex flex-col items-center justify-center w-full sm:w-auto sm:mt-0' data-aos="fade-left">
+          <div className='flex flex-col items-center justify-center w-full sm:w-1/2 sm:mt-0' data-aos="fade-left">
             <p className="text-white text-lg sm:text-xl md:text-xl leading-10 text-justify opacity-90">
               Hello everyone, I'm <span className="text-accent font-bold">Chrisjohn Crisostomo</span>. As an aspiring full-stack developer, my journey in web development has been both enriching and exciting. I find satisfaction in constructing responsive websites and overseeing their backends.
             </p>
