@@ -21,7 +21,7 @@ const AboutMe = () => {
         
 
           {/* About Me Text */}
-          <div className='flex flex-col items-center justify-center w-full sm:w-1/2 sm:mt-0' data-aos="fade-left">
+          <div className='flex flex-col items-center justify-center w-full lg:w-1/2 sm:mt-0' data-aos="fade-left">
             <p className="text-white text-lg sm:text-xl md:text-xl leading-10 text-justify opacity-90">
               Hello everyone, I'm <span className="text-primary font-bold">Chrisjohn Crisostomo</span>. As an aspiring full-stack developer, my journey in web development has been both enriching and exciting. I find satisfaction in constructing responsive websites and overseeing their backends.
             </p>

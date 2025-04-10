@@ -10,7 +10,7 @@ const Skills = () => {
                     <p className='border-b-15 border-primary-content -translate-y-3 w-2/3 z-0' data-aos="zoom-in-up"></p>
                 </div>
 
-                  <p data-aos="fade-up">I've learned about different tech tools in my studies, and right now, I'm still improving myself, especially Back-end Development.</p>
+                  <p className="w-8/10 mx-auto" data-aos="fade-up">I've learned about different tech tools in my studies, and right now, I'm still improving myself, especially Back-end Development.</p>
               </div>
   
   
