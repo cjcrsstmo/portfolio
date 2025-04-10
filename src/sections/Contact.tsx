@@ -48,8 +48,8 @@ const Contact = () => {
     <section className='min-h-screen' id="contact">
       
       <div className='flex flex-col items-center justify-center pt-20 xl:pt-15 mb-10 lg:mb-15 xl:mb-20 w-fit mx-auto'>
-        <h1 className='font-bold text-3xl sm:text-4xl md:text-5xl text-center  w-fit mx-auto z-1' data-aos="zoom-in-up">CONTACT ME</h1>
-        <p className='border-b-15 border-accent-content -translate-y-3 w-2/3 z-0' data-aos="zoom-in-up"></p>
+        <h1 className='font-bold text-3xl sm:text-4xl md:text-5xl text-center w-fit mx-auto z-1' data-aos="zoom-in-up">CONTACT ME</h1>
+        <p className='border-b-15 border-main-content -translate-y-3 w-2/3 z-0' data-aos="zoom-in-up"></p>
       </div>
       
       <div className='flex flex-col lg:flex-row text-center xl:text-left justify-center items-center gap-8 sm:gap-20 '>
@@ -57,16 +57,16 @@ const Contact = () => {
           <p>Let's talk about everything!</p>
           <p>I am here to engage with you and offer my assistance. <br /><br /> Addressing any queries or concerns you may have.</p>
           <ul className='flex gap-5 mx-auto'>
-            <li><a href="https://github.com/cjcrsstmo" target='_blank' /><i className='bx bxl-github text-2xl'></i></li>
-            <li><a href="https://www.linkedin.com/in/chrisjohn-crisostomo-8148162b7/" target='_blank' /><i className='bx bxl-linkedin-square text-2xl'></i></li>
-            <li><a href="https://www.facebook.com/cjcrsstmo" target='_blank' /><i className='bx bxl-facebook-square text-2xl'></i></li>
+            <li><a href="https://github.com/cjcrsstmo" target='_blank' /><i className='bx bxl-github text-2xl hover:text-primary cursor-pointer'></i></li>
+            <li><a href="https://www.linkedin.com/in/chrisjohn-crisostomo-8148162b7/" target='_blank' /><i className='bx bxl-linkedin-square text-2xl hover:text-primary cursor-pointer'></i></li>
+            <li><a href="https://www.facebook.com/cjcrsstmo" target='_blank' /><i className='bx bxl-facebook-square text-2xl hover:text-primary cursor-pointer'></i></li>
           </ul>
         </div>  
         <div className='text-black flex flex-col items-center gap-3 w-full max-w-md' data-aos="fade-left">
           <input 
             type="text" 
             name="name" 
-            className='input input-accent w-3/4' 
+            className='input input-primary w-3/4' 
             placeholder="Your name" 
             value={formData.name}
             onChange={handleChange}
@@ -75,7 +75,7 @@ const Contact = () => {
           <input 
             type="email" 
             name="email" 
-            className='input input-accent w-3/4' 
+            className='input input-primary w-3/4' 
             placeholder="Email" 
             value={formData.email}
             onChange={handleChange}
@@ -83,7 +83,7 @@ const Contact = () => {
           />
           <textarea 
             name="message" 
-            className='textarea textarea-accent w-3/4' 
+            className='textarea textarea-primary w-3/4' 
             cols={30} 
             rows={5} 
             placeholder="Write your message" 
@@ -92,7 +92,7 @@ const Contact = () => {
             required
           />
           <button 
-            className='btn btn-accent w-3/4' 
+            className='btn btn-primary w-3/4' 
             onClick={handleSubmit}
           >
             Send
