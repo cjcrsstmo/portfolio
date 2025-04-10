@@ -24,18 +24,18 @@ const Projects = () => {
 
                 <div className='flex flex-col lg:flex-row justify-center items-center mx-auto w-full md:w-2/3 gap-8 sm:gap-10 md:gap:15 mt-10 xl:mt-20'>
                     {/* Objectiva */}
-                    <div className='flex flex-col justify-around items-center bg-primary-content rounded-xl p-10 w-8/10 sm:w-5/10 md:w-3/4 lg:w-2/5 min-h-100 max-h-100' data-aos="zoom-in">
+                    <div className='flex flex-col justify-around items-center bg-primary-content2 rounded-xl p-10 w-8/10 sm:w-5/10 md:w-3/4 lg:w-2/5 min-h-100 max-h-100' data-aos="zoom-in">
                         <p className="mx-auto mb-3 text-xl font-bold">Objectiva</p>
                         <p className='text-justify'><strong>Description:</strong> Our capstone project which is an interactive learning platform for learning the 4 basic principles of OOP in Java</p>
                         <p className='mt-2 text-start w-full flex gap-2 items-center justify-start'>
-                            <strong>Tech Stack:</strong> <i className='bx bxl-angular text-2xl text-primary '/> <i className='bx bxl-css3 text-2xl text-primary '/> <i className='bx bxl-bootstrap text-2xl text-primary '/> <i className='fab fa-laravel text-xl text-primary '/> <i className='fa-solid fa-database text-xl text-primary '/>
+                            <strong>Tech Stack:</strong> <i className='bx bxl-angular text-2xl text-primary '/> <i className='bx bxl-css3 text-2xl text-primary '/> <i className='bx bxl-bootstrap text-2xl text-primary '/> <i className='fab fa-laravel text-xl text-primary'/> <i className='fa-solid fa-database text-xl text-primary '/>
                         </p>
                         <div className="card-actions justify-end">
                             <a href='https://objectiva.tech' target='_blank' className="btn btn-outline btn-primary mx-auto mt-5"><i className='bx bx-link' ></i>Visit Site</a>
                         </div>
                     </div>
                     {/* Dental Care */}
-                    <div className='flex flex-col justify-around items-center bg-primary-content rounded-xl p-10 w-8/10 sm:w-5/10 md:w-3/4 lg:w-2/5 min-h-100 max-h-100' data-aos="zoom-in">
+                    <div className='flex flex-col justify-around items-center bg-primary-content2 rounded-xl p-10 w-8/10 sm:w-5/10 md:w-3/4 lg:w-2/5 min-h-100 max-h-100' data-aos="zoom-in">
                         <p className="mx-auto mb-3 text-xl font-bold">Dental Care</p>
                         <p className='text-justify'><strong>Description:</strong> A dental care website that is offering an easy-to-use interface for booking appointments and submitting reviews.</p>
                         <p className='mt-2 text-start w-full flex gap-2 items-center justify-start'>
@@ -46,7 +46,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* Bookstore201 */}
-                    <div className='flex flex-col justify-around items-center bg-primary-content rounded-xl p-10 w-8/10 sm:w-5/10 md:w-3/4 lg:w-2/5 min-h-100 max-h-100' data-aos="zoom-in">
+                    <div className='flex flex-col justify-around items-center bg-primary-content2 rounded-xl p-10 w-8/10 sm:w-5/10 md:w-3/4 lg:w-2/5 min-h-100 max-h-100' data-aos="zoom-in">
                         <p className="mx-auto mb-3 text-xl font-bold">Bookstore201</p>
                         <p className='text-justify'><strong>Description:</strong> A library website for browsing books.</p>
                         <p className='mt-2 text-start w-full flex gap-2 items-center justify-start'>

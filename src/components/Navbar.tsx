@@ -12,7 +12,7 @@ const Navbar = () => {
                 <li><a href="https://www.linkedin.com/in/chrisjohn-crisostomo-8148162b7/" target='_blank'><i className='bx bxl-linkedin-square text-2xl hover:text-primary' ></i></a></li>
                 <li><a href="https://www.facebook.com/cjcrsstmo" target='_blank'><i className='bx bxl-facebook-square text-2xl hover:text-primary'></i></a></li>
             </ul>
-            <img src={Logo} alt="logo" className='w-10' />
+            <img src={Logo} alt="logo" className='w-10'/>
             {/* <ul className='flex flex-wrap gap-5 hidden '> 
                 <li><a href="#home" className='hover:underline hover:underline-offset-6'>HOME</a></li>
                 <li><a href="#aboutme" className='hover:underline hover:underline-offset-6'>ABOUT ME</a></li>
