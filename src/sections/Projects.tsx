@@ -1,7 +1,7 @@
 // import CJ from '../assets/cj.jpg'
-import objectiva from '../assets/objectiva.jpg'
-import dentalcare from '../assets/dentalcare.jpg'
-import bookstore from '../assets/bookstore.jpg'
+// import objectiva from '../assets/objectiva.jpg'
+// import dentalcare from '../assets/dentalcare.jpg'
+// import bookstore from '../assets/bookstore.jpg'
 // import {useState} from 'react'
 
 
