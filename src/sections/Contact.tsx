@@ -49,7 +49,7 @@ const Contact = () => {
       
       <div className='flex flex-col items-center justify-center pt-20 xl:pt-15 mb-10 lg:mb-15 xl:mb-20 w-fit mx-auto'>
         <h1 className='font-bold text-3xl sm:text-4xl md:text-5xl text-center w-fit mx-auto z-1' data-aos="zoom-in-up">CONTACT ME</h1>
-        <p className='border-b-15 border-main-content -translate-y-3 w-2/3 z-0' data-aos="zoom-in-up"></p>
+        <p className='border-b-15 border-primary-content -translate-y-3 w-2/3 z-0' data-aos="zoom-in-up"></p>
       </div>
       
       <div className='flex flex-col lg:flex-row text-center xl:text-left justify-center items-center gap-8 sm:gap-20 '>

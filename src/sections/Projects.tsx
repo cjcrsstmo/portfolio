@@ -17,7 +17,7 @@ const Projects = () => {
     <section className='min-h-screen pt-10 xl:pt-20' id='projects'>
                 <div className='flex flex-col items-center justify-center pt-20 xl:pt-15 mb-2 w-fit mx-auto'>
                     <h1 className='font-bold text-3xl sm:text-4xl md:text-5xl text-center w-fit mx-auto z-1' data-aos="zoom-in-up">PROJECTS</h1>
-                    <p className='border-b-15 border-main-content -translate-y-3 w-2/3 z-0' data-aos="zoom-in-up"></p>
+                    <p className='border-b-15 border-primary-content -translate-y-3 w-2/3 z-0' data-aos="zoom-in-up"></p>
                 </div>
 
                 <p className='text-center' data-aos="zoom-in-up">Explore the projects I've worked on so far</p>

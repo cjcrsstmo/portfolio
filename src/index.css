@@ -2,17 +2,11 @@
 
 @plugin "daisyui";
 
-@theme {
-  --color-main: oklch(58% 0.158 241.966);
-  --color-main-content: oklch(35% 0.09 240.876);
- 
-}
-
-
 
 :root {
 
   --color-primary: oklch(58% 0.158 241.966);
+  --color-primary-content: oklch(35% 0.09 240.876);
   
   font-family: 'Poppins',system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
