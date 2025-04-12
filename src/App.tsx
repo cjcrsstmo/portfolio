@@ -1,11 +1,11 @@
 
 import Navbar from './components/Navbar'
-import Landing from './sections/Landing';
-import AboutMe from './sections/AboutMe';
-import Skills from './sections/Skills';
-import Projects from './sections/Projects';
-import Footer from './components/Footer';
-import Contact from './sections/Contact';
+// import Landing from './sections/Landing';
+// import AboutMe from './sections/AboutMe';
+// import Skills from './sections/Skills';
+// import Projects from './sections/Projects';
+// import Footer from './components/Footer';
+// import Contact from './sections/Contact';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';  
